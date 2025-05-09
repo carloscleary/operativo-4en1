@@ -1,0 +1,1 @@
+// OCR Service for reading images (placeholder)
