@@ -1,1 +1,0 @@
-// Service for managing inventory (placeholder)
