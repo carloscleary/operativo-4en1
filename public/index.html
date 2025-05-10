@@ -4,15 +4,26 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Operativo 4en1</title>
+    <title>Operativo 4en1 - Empresas de Alimentos</title>
     <link rel="stylesheet" href="./style.css">
   </head>
   <body>
-    <div id="root">
+    <div id="header">
       <h1>Operativo 4en1 - Empresas de Alimentos</h1>
-      <button onclick="showMessage()">Generar Lista de Compras</button>
-      <div id="message" style="display:none;">Lista de Compras Generada ✅</div>
+      <div class="header-icons">
+        <div id="notifications" onclick="showNotifications()">🔔 <span id="notif-count">0</span></div>
+        <div id="profile" onclick="showSection('configuracion')">👤 Configuración</div>
+      </div>
     </div>
+    
+    <div id="main-menu">
+      <button onclick="showSection('inventario')">📦 Inventario</button>
+      <button onclick="showSection('compras')">🛒 Compras</button>
+      <button onclick="showSection('inspecciones')">✅ Inspecciones</button>
+      <button onclick="showSection('mantenimiento')">🧯 Mantenimiento</button>
+    </div>
+
+    <div id="content-area"></div>
 
     <script src="./main.js"></script>
   </body>
