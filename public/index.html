@@ -5,14 +5,15 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Operativo 4en1</title>
-    <link rel="icon" href="/public/favicon.ico">
-    <style>
-      body { font-family: Arial, sans-serif; text-align: center; margin-top: 50px; }
-      h1 { color: #4CAF50; }
-    </style>
+    <link rel="stylesheet" href="./style.css">
   </head>
   <body>
-    <div id="root"></div>
-    <script src="./src/main.js"></script>
+    <div id="root">
+      <h1>Operativo 4en1 - Empresas de Alimentos</h1>
+      <button onclick="showMessage()">Generar Lista de Compras</button>
+      <div id="message" style="display:none;">Lista de Compras Generada ✅</div>
+    </div>
+
+    <script src="./main.js"></script>
   </body>
 </html>
