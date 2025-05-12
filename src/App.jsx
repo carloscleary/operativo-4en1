@@ -1,4 +1,4 @@
-
+// src/App.jsx
 import React, { useState } from "react";
 import './styles.css';
 import Inventario from './InventoryComponent';
