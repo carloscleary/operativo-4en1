@@ -1,0 +1,30 @@
+{
+  "name": "operativo-4en1",
+  "version": "1.0.0",
+  "description": "Operativo 4en1 - Empresas de Alimentos",
+  "main": "src/main.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "keywords": [
+    "react",
+    "vite",
+    "empresas de alimentos",
+    "inventario",
+    "compras",
+    "inspecciones",
+    "mantenimiento"
+  ],
+  "author": "Carlos Cleary",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "vite": "^4.5.14",
+    "@vitejs/plugin-react": "^4.5.14"
+  }
+}
