@@ -1,30 +1,26 @@
 
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Operativo 4en1 - Empresas de Alimentos</title>
-    <link rel="stylesheet" href="./style.css">
-  </head>
-  <body>
-    <div id="header">
-      <h1>Operativo 4en1 - Empresas de Alimentos</h1>
-      <div class="header-icons">
-        <div id="notifications" onclick="showNotifications()">🔔 <span id="notif-count">0</span></div>
-        <div id="profile" onclick="showSection('configuracion')">👤 Configuración</div>
-      </div>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="app">
+        <h1>Operativo 4en1 - Empresas de Alimentos</h1>
+        <div class="menu">
+            <button class="accordion">Inventario</button>
+            <div class="panel">
+                <p class="status-optimo">✅ Óptimo: <span id="optimo">6</span></p>
+                <p class="status-advertencia">⚠️ Advertencia: <span id="advertencia">2</span></p>
+                <p class="status-critico">🚨 Crítico: <span id="critico">1</span></p>
+                <button class="action-btn">Realizar Inventario</button>
+                <button class="action-btn">Generar Lista de Compra</button>
+            </div>
+        </div>
     </div>
-    
-    <div id="main-menu">
-      <button onclick="showSection('inventario')">📦 Inventario</button>
-      <button onclick="showSection('compras')">🛒 Compras</button>
-      <button onclick="showSection('inspecciones')">✅ Inspecciones</button>
-      <button onclick="showSection('mantenimiento')">🧯 Mantenimiento</button>
-    </div>
-
-    <div id="content-area"></div>
-
-    <script src="./main.js"></script>
-  </body>
+    <script src="app.js"></script>
+</body>
 </html>
