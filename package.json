@@ -8,17 +8,6 @@
     "build": "vite build",
     "serve": "vite preview"
   },
-  "keywords": [
-    "react",
-    "vite",
-    "empresas de alimentos",
-    "inventario",
-    "compras",
-    "inspecciones",
-    "mantenimiento"
-  ],
-  "author": "Carlos Cleary",
-  "license": "MIT",
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
@@ -26,5 +15,5 @@
   "devDependencies": {
     "vite": "^4.5.0",
     "@vitejs/plugin-react": "^3.1.0"
-}
+  }
 }
